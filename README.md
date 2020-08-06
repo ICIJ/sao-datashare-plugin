@@ -1,5 +1,7 @@
 # sao-datashare-plugin
 
+[![Circle CI](https://circleci.com/gh/ICIJ/sao-datashare-plugin.png)](https://circleci.com/gh/ICIJ/sao-datashare-plugin)
+
 > This [SAO](https://github.com/saojs/sao) generator will scaffold a Datashare plugin.
 
 ## Usage
