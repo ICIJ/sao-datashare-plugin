@@ -1,5 +1,5 @@
 {
-  "name": "sao-datashare-plugin",
+  "name": "@icij/sao-datashare-plugin",
   "version": "0.0.0",
   "description": "This SAO genetator will scaffold a Datashare plugin.",
   "author": "pierre romera <promera@icij.org> (https://datashare.icij.org)",
