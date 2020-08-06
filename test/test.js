@@ -18,10 +18,18 @@ test('it uses default value for the prompt', async () => {
   const sao = createSAO()
   await sao.run()
 
-  expect(sao.answers).toEqual({
-    name: 'datashare-plugin-sample-for-test',
-    description: 'an amazing plugin for Datashare'
-  })
+  expect(sao.answers).toEqual(
+    expect.objectContaining({
+      name: 'datashare-plugin-sample-for-test',
+      description: 'an amazing plugin for Datashare'
+    })
+  )
+})
+
+test('it get the latest version of Datashare', async () => {
+  const sao = createSAO()
+  await sao.run()
+  expect(sao.answers.datashare_version).toMatch(/\d+\.\d+\.\d+/)
 })
 
 test('it scaffolds the plugin\'s files', async () => {

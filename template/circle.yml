@@ -3,16 +3,13 @@ workflows:
   version: 2
   test:
     jobs:
-      - test-6.0.0
-      - test-5.9.19
-      - test-5.9.17
-      - test-5.9.16
+      - test-<%= datashare_version %>
 jobs:
-  test-6.0.0: &test-master
+  test-<%= datashare_version %>: &test-master
     docker:
       - image: circleci/node:buster-browsers
         environment:
-          - "DATASHARE_VERSION=6.0.0"
+          - "DATASHARE_VERSION=<%= datashare_version %>"
     steps:
       - checkout
       - run:
@@ -38,21 +35,3 @@ jobs:
       - run:
           name: Run test
           command: yarn run test
-  test-5.9.19:
-    << : *test-master
-    docker:
-      - image: circleci/node:buster-browsers
-        environment:
-          - "DATASHARE_VERSION=5.9.19"
-  test-5.9.17:
-    << : *test-master
-    docker:
-      - image: circleci/node:buster-browsers
-        environment:
-          - "DATASHARE_VERSION=5.9.17"
-  test-5.9.16:
-    << : *test-master
-    docker:
-      - image: circleci/node:buster-browsers
-        environment:
-          - "DATASHARE_VERSION=5.9.16"
