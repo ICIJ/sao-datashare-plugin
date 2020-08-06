@@ -8,12 +8,20 @@
 
 All you need is Node/NPM on your system.
 
+### From NPM
+
+This will use NPM package to scaffold a plugin inside a new directory:
+
+```bash
+npx sao npm:@icij/sao-datashare-plugin MY-PLUGIN-DIR
+```
+
 ### From git
 
 This will use this repository to scaffold a plugin inside a new directory:
 
 ```bash
-npx sao icij/sao-datashare-plugin MY-PLUGIN-NAME
+npx sao icij/sao-datashare-plugin MY-PLUGIN-DIR
 ```
 
 ## License
