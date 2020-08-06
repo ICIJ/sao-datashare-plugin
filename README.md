@@ -20,4 +20,4 @@ sao icij/sao-datashare-plugin MY-PLUGIN-NAME
 
 ## License
 
-MIT &copy; [pierre romera](https://datashare.icij.org)
+MIT &copy; [ICIJ](https://icij.org)
