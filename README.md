@@ -6,6 +6,8 @@
 
 ## Usage
 
+All you need is Node/NPM on your system.
+
 ### From git
 
 This will use this repository to scaffold a plugin inside a new directory:
