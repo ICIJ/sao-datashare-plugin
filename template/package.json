@@ -23,7 +23,7 @@
     "build": "npx vue build --target lib --name index",
     "prepublishOnly": "yarn build"
   },
-  "license": "ISC",
+  "license": "MIT",
   "vue": {
     "filenameHashing": false
   },
