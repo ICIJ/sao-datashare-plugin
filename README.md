@@ -1,6 +1,6 @@
 # sao-datashare-plugin
 
-> This SAO genetator will scaffold a Datashare plugin.
+> This SAO generator will scaffold a Datashare plugin.
 
 ## Usage
 
