@@ -1,7 +1,7 @@
 {
   "name": "@icij/sao-datashare-plugin",
   "version": "0.0.1",
-  "description": "This SAO genetator will scaffold a Datashare plugin.",
+  "description": "This SAO generator will scaffold a Datashare plugin.",
   "author": "pierre romera <promera@icij.org> (https://datashare.icij.org)",
   "license": "MIT",
   "repository": {
@@ -20,6 +20,6 @@
     "sao": "^2.0.0-beta.1"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }
